@@ -1,0 +1,29 @@
+.wrapper{
+    display:grid;
+    grid-template-rows:  600px 300px 300px 300px 600px 100px;
+    gap: 10px;
+}
+.newones{
+    background-color: rgb(222, 222, 78);
+    grid-row: 1;
+}
+.featured{
+    background-color: beige;
+    grid-row: 2;
+}
+.reviews{
+    background-color: rgb(201, 118, 17);
+    grid-row: 3;
+}
+.makingoffs{
+    background-color: aqua;
+    grid-row: 4;
+}
+.news{
+    background-color: aquamarine;
+    grid-row: 5;
+}
+.footer{
+    background-color: blueviolet;
+    grid-row: 6;
+}
