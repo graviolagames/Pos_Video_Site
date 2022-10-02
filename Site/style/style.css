@@ -2,6 +2,18 @@
     text-align: center;
     background-color: lightgray;
 }
+#trailer{
+    background-color: black;
+}
+#mVideoFrame{
+    margin: auto;
+    height: 400px;
+}
+#synopsis{
+    text-align: justify;
+    margin:10px;
+}
 .mScrollDots{
     text-align: center;
 }
+
