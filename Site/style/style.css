@@ -11,7 +11,7 @@
 }
 #synopsis{
     text-align: justify;
-    margin:10px;
+    margin:5%;
 }
 .mScrollDots{
     text-align: center;
@@ -19,4 +19,16 @@
 .mScrollDots{
     display:block;
     margin:auto;
+}
+#mAvatar{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.mAvatarImage{
+   
+    width:95px;
+    height:75px;
+}
+.mAvatarText{
+    text-align: justify;
 }
