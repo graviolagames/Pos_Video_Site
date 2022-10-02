@@ -16,4 +16,7 @@
 .mScrollDots{
     text-align: center;
 }
-
+.mScrollDots{
+    display:block;
+    margin:auto;
+}
