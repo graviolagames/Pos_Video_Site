@@ -11,10 +11,12 @@
 <body>
     <div class = container>
         <!-- New that worth noticing area -->
-        <div class = "row">
-            <div class = "mNotice">
-                <h1>Lançamentos</h1>
-                <div class = "row">
+        <h1 class = "mNoticeTitle">Lançamentos</h1>
+        <div id="mCarrousel" class="carousel slide mNotice" data-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div class = "row" >
                         <div id = "trailer" class = "col-md-5">
                                 <div   class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
                                     <iframe id = "mVideoFrame" class="embed-responsive-item" 
@@ -24,23 +26,78 @@
                         </div>
                         <div class = "col-md-5">
                             <div class = row><h4>Star Trek (2009)</h4></div>
-                            <div id ="synopsis" class = "row"><p></p>A bordo da USS Enterprise, a nave estelar mais sofisticada já construída, uma tripulação iniciante embarca em sua viagem inaugural. Seu caminho os leva a uma rota de colisão com Nero (Eric Bana), um comandante romulano cuja missão de vingança ameaça toda a humanidade. Se a humanidade sobreviver, um jovem oficial rebelde chamado James T. Kirk (Chris Pine) e um vulcano friamente lógico chamado Spock (Zachary Quinto) devem superar sua rivalidade e encontrar uma maneira de derrotar Nero antes que seja tarde demais.</p></div>
+                            <div id ="synopsis" class = "row"><p>A bordo da USS Enterprise, a nave estelar mais sofisticada já construída, uma tripulação iniciante embarca em sua viagem inaugural. Seu caminho os leva a uma rota de colisão com Nero (Eric Bana), um comandante romulano cuja missão de vingança ameaça toda a humanidade. Se a humanidade sobreviver, um jovem oficial rebelde chamado James T. Kirk (Chris Pine) e um vulcano friamente lógico chamado Spock (Zachary Quinto) devem superar sua rivalidade e encontrar uma maneira de derrotar Nero antes que seja tarde demais.</p></div>
                         </div>
-
-                </div>
-                <div class = "row">
-                    <div class = mScrollDots>
-                        <img class = "mFakeSmartScroll" src = "assets/smart_scroll.png">
                     </div>
+                    
+                </div>
+                <div class="carousel-item">
+                    
+                    <div class = "row">
+                        <div id = "trailer" class = "col-md-5">
+                                <div   class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
+                                    <iframe id = "mVideoFrame" class="embed-responsive-item" 
+                                        src="https://www.youtube.com/embed/gCcx85zbxz4" width="100%">
+                                    </iframe>
+                                </div>
+                        </div>
+                        <div class = "col-md-5">
+                            <div class = row><h4>Blade Runner 2049</h4></div>
+                            <div id ="synopsis" class = "row"><p>Trinta anos após os acontecimentos do primeiro filme, a humanidade está novamente ameaçada, e dessa vez o perigo pode ser ainda maior. Isso porque o novato oficial K (Ryan Gosling), desenterrou um terrível segredo que tem o potencial de mergulhar a sociedade no completo caos. A descoberta acaba levando-o a uma busca frenética por Rick Deckard (Harrison Ford), desaparecido há 30 anos.</p></div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="carousel-item">
+                    
+                    <div class = "row">
+                        <div id = "trailer" class = "col-md-5">
+                                <div   class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
+                                    <iframe id = "mVideoFrame" class="embed-responsive-item" 
+                                        src="https://www.youtube.com/embed/aHmDi6CUQ3M" width="100%">
+                                    </iframe>
+                                </div>
+                        </div>
+                        <div class = "col-md-5">
+                            <div class = row><h4>Matrix Resurrections</h4></div>
+                            <div id ="synopsis" class = "row"><p>Da visionária realizadora Lana Wachowski chega-nos MATRIX RESURRECTIONS o tão aguardado 4º filme do inovador franchise que redefiniu o género. O novo filme reúne os protagonistas originais Keanu Reeves e Carrie-Anne Moss nos icónicos personagens que os tornaram famosos, Neo e Trinity.</p></div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+            <a class="carousel-control-prev" href = "#mCarrousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next"  href = "#mCarrousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-        <!-- Featured area-->
 
+        <!-- Featured area-->
+        <div class = "row">
+            <h1>Em destaque</h1>
+        </div>
+        <div class = "row">
+            <div class = "col">
+                <img  src = "assets/mvThumb1.jpg">
+            </div>
+            <div class = "col">
+                <img  src = "assets/mvThumb2.jpg">
+            </div>
+            <div class = "col">
+                <img  src = "assets/mvThumb3.jpg">
+            </div>
+            <div class = "col">
+                <img  src = "assets/mvThumb4.jpg">
+            </div>
+        </div> 
         <!-- Reviews Area-->
         <div class = "row">
             <div class = "row"><h1>Últimas avaliações</h1></div>
-            <div class ="col-md-3">
+            <div class ="col">
 
                 <div id = "mAvatar" class = "row">
                     <img class = "mAvatarImage" src = "assets/Mario.png">
@@ -54,7 +111,7 @@
                 </div>
                 
             </div>
-            <div class ="col-md-3">
+            <div class ="col">
                 
                 <div id = "mAvatar" class = "row">
                     <img class = "mAvatarImage" src = "assets/Boris.png">
@@ -68,7 +125,7 @@
                 </div>
 
             </div>
-            <div class ="col-md-3">
+            <div class ="col">
                 
                 <div id = "mAvatar" class = "row">
                     <img class = "mAvatarImage" src = "assets/Cris.png">
@@ -83,8 +140,8 @@
 
 
             </div>
-
-            <div class ="col-md-3">
+            <!--
+            <div class ="col">
                 
                 <div id = "mAvatar" class = "row">
                     <img class = "mAvatarImage" src = "assets/Steeve.png">
@@ -99,7 +156,7 @@
 
 
             </div>
-
+        -->
         </div>
     </div>
 </body>

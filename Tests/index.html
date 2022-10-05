@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>Exemplo Bootstrap Carousel</title>
+  <meta charset = "utf-8">
+  <meta name = " viewport" content = "width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+  <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"> </script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Carrossel no Bootstrap, aprendendo na prática!</h2>  
+  <p> Abaixo você poderá conferir o nosso Carrossel!</p>
+  <div id="mCarousel" class="carousel slide" data-ride="carousel">
+  
+    <!-- Indicadores -->
+    <ol class="carousel-indicators">
+      <li data-target="#mCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mCarousel" data-slide-to="1"></li>
+      <li data-target="#mCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper-->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://assets-global.website-files.com/61549abf6fb9ca5e91bc5709/61a6362ac5e4ff25cbd9aca8_footer.png" alt="trybe_photo" style="width:50%;">
+      </div>
+
+      <div class="item">
+        <img src="https://assets-global.website-files.com/624b309d22c6d46529975867/624b30c37ce9898a512bc516_hero.png" alt="trybe_1" style="width:50%;">
+      </div>
+    
+      <div class="item">
+        <img src="https://assets-global.website-files.com/61549abf6fb9ca5e91bc5709/61549abf6fb9ca4630bc5747_Logo.svg" alt="Trybe_logo" style="width:50%;">
+      </div>
+    </div>  
+    
+
+    <!--Controles de direita e esquerda -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

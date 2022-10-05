@@ -1,6 +1,11 @@
+.mNoticeTitle{
+    text-align: center;
+    
+}
 .mNotice{
     text-align: center;
-    background-color: lightgray;
+    background-color: rgb(55, 57, 58);
+    color:white
 }
 #trailer{
     background-color: black;
@@ -13,12 +18,11 @@
     text-align: justify;
     margin:5%;
 }
-.mScrollDots{
-    text-align: center;
-}
+
 .mScrollDots{
     display:block;
     margin:auto;
+    text-align: center;
 }
 #mAvatar{
     display:flex;
