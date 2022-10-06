@@ -14,9 +14,8 @@
     margin: auto;
     height: 400px;
 }
-.synopsis{
+.mSynopsis{
     text-align: justify;
-    margin:5%;
 }
 
 .mScrollDots{
