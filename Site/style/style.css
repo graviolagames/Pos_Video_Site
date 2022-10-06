@@ -14,7 +14,7 @@
     margin: auto;
     height: 400px;
 }
-#synopsis{
+.synopsis{
     text-align: justify;
     margin:5%;
 }
