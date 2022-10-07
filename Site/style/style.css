@@ -40,3 +40,12 @@
 .mStar{
     color: rgb(255, 64, 0);
 }
+.carousel-control-prev,
+.carousel-control-next{
+    align-items: flex-start;; /* Aligns it at the top */
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    align-items: flex-end;; /* Aligns it at the bottom */
+}
