@@ -169,9 +169,19 @@
         </div>
 
         <!-- Featured area-->
-        <br>    
-            <h1>Em destaque</h1>
-        <br>
+        <div class="row mb-4">
+            <div class="col-md-9">
+              <h1 class="my-4">Em destaque</h1>
+            </div>
+            <div class="col-md-3 mt-4">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Categoria :: Todos</option>
+                <option value="aventura">SCFI</option>
+                <option value="romance">Aventura</option>
+                <option value="comedia">Suspense</option>
+              </select>
+            </div>
+          </div>
         <div class = "row">
             <div class = "col">
                 <img  src = "assets/mvThumb1.jpg">
@@ -184,6 +194,14 @@
             </div>
             <div class = "col">
                 <img  src = "assets/mvThumb4.jpg">
+            </div>
+        </div>
+        <br>
+        <div class="row float-end">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary">
+                <i class="ph-plus-bold"></i> Carregar mais filmes
+              </button>
             </div>
         </div>
         <!-- Reviews Area-->
@@ -247,6 +265,74 @@
                 </div>
             </div>
         </div>
+        <br>
+        <div class="row float-end">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary">
+                <i class="ph-plus-bold"></i> Carregar mais avaliações
+              </button>
+            </div>
+        </div>
+        
+        <!-- Making ofs Area-->
+        <br>
+            <h1>Entrevistas & Making of</h1>
+        <br>
+        <div class = "row">
+            <div class = "col">
+                <div class = "card">
+                    <div   class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
+                        <iframe id = "mVideoFrame" class="embed-responsive-item" 
+                            src="https://www.youtube.com/embed/Jg1gJKZwpPk" width="100%">
+                        </iframe>
+                    </div>
+                    <div>
+                        <p><strong>Filme: </strong>Duna</p>
+                        <p><strong>Diretor: </strong>Denis Villeneuve</p>
+                        <p><strong>Roteiro: </strong>Spaihts, Villeneuve</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class = "col">
+                <div class = "card">
+                    <div   class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
+                        <iframe id = "mVideoFrame" class="embed-responsive-item" 
+                            src="https://www.youtube.com/embed/iadLLfFXbUA" width="100%">
+                        </iframe>
+                    </div>
+                    <div>
+                        <p><strong>Filme: </strong>Matrix Resurrections</p>
+                        <p><strong>Diretor: </strong> Lana Wachowski</p>
+                        <p><strong>Roteiro: </strong> Lana & Lilly Wachowski</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class = "col">
+                <div class = "card">
+                    <div   class="section d-flex justify-content-center embed-responsive embed-responsive-21by9">
+                        <iframe id = "mVideoFrame" class="embed-responsive-item" 
+                            src="https://www.youtube.com/embed/V5GTOWDlfWo" width="100%">
+                        </iframe>
+                    </div>
+                    <div>
+                        <p><strong>Filme: </strong>Top Gun: Maverick</p>
+                        <p><strong>Diretor: </strong>  Joseph Kosinski</p>
+                        <p><strong>Roteiro: </strong>  Peter Craig</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row float-end">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary">
+                <i class="ph-plus-bold"></i> Carregar mais filmes
+              </button>
+            </div>
+        </div>
+        
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
