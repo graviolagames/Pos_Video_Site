@@ -3,9 +3,11 @@
     
 }
 .mNotice{
-    text-align: center;
     background-color: rgb(55, 57, 58);
     color:white
+}
+.mTopic{
+    font-weight: bold;
 }
 #trailer{
     background-color: black;
