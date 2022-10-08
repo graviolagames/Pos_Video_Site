@@ -49,3 +49,7 @@
 .carousel-control-next{
     align-items: flex-end;; /* Aligns it at the bottom */
 }
+
+.mNews:nth-child(4) {
+    border-bottom: none;
+  }
